@@ -1,0 +1,231 @@
+
+.main-container {
+	margin:0px auto 20px auto;
+	width:980px;
+}
+
+.content {
+	position:relative;
+	margin-bottom:35px;
+	overflow:auto;
+}
+.column {
+	position:relative;
+	display:inline;
+	float:left;
+	margin-left: 0px;
+	margin-right: 12px;
+	width:320px;
+}
+
+.first {
+	margin-left:0px;
+}
+.last {
+	margin-right:0px;
+}
+.box {
+	margin-bottom:8px;
+	color:#000;
+}
+.box-top {
+	position:relative;
+	height:49px;
+	background: url(../img/column-box-top.png) no-repeat;
+	z-index:500;
+}
+
+#boxFacebook .box-top {	background: url(img/facebook.jpg) no-repeat;margin-top:38px;}
+#boxYouTube .box-top { background: url(img/youtube.jpg) no-repeat;margin-top:38px;}
+#boxTwitter .box-top { background: url(../img/column-twitter-cap.png) no-repeat;}
+
+.box-content {
+	background: url(../img/column-content-bg.png) repeat-y;
+	padding: 14px 14px 5px;
+	overflow:hidden;
+}
+.box-content .first {
+	padding-top:0px;
+}
+.box-content .last {
+	padding-bottom:0px;
+	border:none;
+}
+.box-bottom {
+	position:relative;
+	height:15px;
+	background: url(../img/column-box-bottom.png) no-repeat bottom left;
+} 
+.button {
+	display:block;
+	float:right;	
+	padding:0px 14px;
+}
+.button a.button-link {
+	position:relative;
+	display:block;
+	color: #555555;
+	text-decoration:none;
+	text-align:right;
+	font-weight: normal;
+	font-size:11px;
+	padding:0px;
+	background: url(../img/button-arrow-right.gif) no-repeat center right;
+	padding-right:15px;
+}
+.button a.button-link:hover {
+	text-decoration:underline;
+}
+.box-top .button a.button-link {
+	line-height:49px;
+	height:49px;
+}
+.box-bottom .button a.button-link {
+	height:25px;
+	line-height:25px;
+	border-top:1px solid #ccc;
+}
+
+/*** TWITTER ***/
+
+h2.tut{
+	color:white;
+	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
+	font-size:16px;
+	padding:12px 0 0 58px;
+	text-transform:uppercase;
+	margin-left: 40px;
+	text-shadow:2px 1px 6px #333;
+}
+
+#twitter-ticker{
+	width:300px;
+	height:300px;
+	background:url(img/slickbg.png) no-repeat #f5f5f5;
+	color:#666666;
+	display:none;
+	
+	-moz-border-radius:10px 10px 6px 6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius:6px;
+
+	text-align:left;
+}
+
+#tweet-container{
+	height:230px;
+	width:auto;
+	overflow:hidden;
+}
+
+#twitIcon{
+	position:absolute;
+	top:-25px;
+	left:-10px;
+	width:64px;
+	height:64px;
+}
+
+#top-bar{
+	height:45px;
+	background:url(img/Twitter.jpg) repeat-x;
+	border-bottom:1px solid white;
+	position:relative;
+	margin-bottom:8px;
+	width:300px;
+	
+	-moz-border-radius:6px 6px 0 0;
+}
+
+.tweet{
+	padding:5px;
+	margin:0 8px 8px;
+	
+	border:1px solid #F0F0F0;
+	background:url(img/transparent.png);
+	
+	width:auto;
+	overflow:hidden;
+}
+
+.tweet .avatar,
+.tweet .user,
+.tweet .time{
+	float:left;
+}
+
+.tweet .time{
+	text-transform:uppercase;
+	font-size:10px;
+	color:#AAAAAA;
+	white-space:nowrap;
+}
+
+
+.tweet .avatar img{
+	width:36px;
+	height:36px;
+	border:2px solid #eeeeee;
+	margin:0 5px 5px 0;
+}
+
+.tweet .txt{
+	clear:both;
+}
+
+.tweet .user{
+	font-weight:bold;
+}
+
+a, a:visited {
+	color:#00BBFF;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+#loading{
+	margin:100px 95px;
+}
+
+/* The styles below are only necessary for the demo page */
+
+p{
+	padding-top:7px;
+}
+
+#twitter-ticker{
+	margin:40px auto 20px;
+}
+
+
+#main{
+	margin:40px auto;
+	text-align:center;
+	width:300px;
+}
+
+h1{
+	color:white;
+	font-size:36px;
+	font-weight:bold;
+	font-family:"Trebuchet MS",Arial, Helvetica, sans-serif;
+}
+
+/** Youtube */
+
+.powered{display:none;}
+table.gadget a {display:none;}
+#boxYouTubeContent{width:320px;margin:0 0 0 -10px}
+.titleBox {
+    background: url("boxbkg1.jpg") repeat-x scroll left top transparent;
+    border: 0 none;
+    display: inline;
+    float: left;
+    margin: 0;
+    width: 190px;
+	
