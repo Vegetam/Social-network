@@ -4,7 +4,7 @@
  * Free to use and abuse under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
  */
-var tweetUsers = ['google'];
+var tweetUsers = ['google']; // your user of twitter
 var buildString = "";
 
 $(document).ready(function(){
